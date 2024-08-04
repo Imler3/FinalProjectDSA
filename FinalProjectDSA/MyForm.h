@@ -104,6 +104,7 @@ namespace FinalProjectDSA {
 	private: System::Windows::Forms::Label^ heapOutputS0;
 	private: System::Windows::Forms::Button^ mergeS;
 	private: System::Windows::Forms::Label^ heapSortOutS;
+	private: System::Windows::Forms::Label^ label5;
 
 
 
@@ -170,6 +171,7 @@ namespace FinalProjectDSA {
 			this->label13 = (gcnew System::Windows::Forms::Label());
 			this->heapOutputS0 = (gcnew System::Windows::Forms::Label());
 			this->heapSortOutS = (gcnew System::Windows::Forms::Label());
+			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->SolosLabelPanel->SuspendLayout();
 			this->panel1->SuspendLayout();
 			this->panel2->SuspendLayout();
@@ -184,7 +186,7 @@ namespace FinalProjectDSA {
 			// 
 			this->button1->Font = (gcnew System::Drawing::Font(L"NSimSun", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(1357, 38);
+			this->button1->Location = System::Drawing::Point(2010, 34);
 			this->button1->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(93, 50);
@@ -216,7 +218,7 @@ namespace FinalProjectDSA {
 			this->SolosLabelPanel->Location = System::Drawing::Point(69, 110);
 			this->SolosLabelPanel->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->SolosLabelPanel->Name = L"SolosLabelPanel";
-			this->SolosLabelPanel->Size = System::Drawing::Size(1485, 114);
+			this->SolosLabelPanel->Size = System::Drawing::Size(2130, 114);
 			this->SolosLabelPanel->TabIndex = 2;
 			// 
 			// quick
@@ -348,7 +350,7 @@ namespace FinalProjectDSA {
 			// 
 			this->button2->Font = (gcnew System::Drawing::Font(L"NSimSun", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button2->Location = System::Drawing::Point(1357, 38);
+			this->button2->Location = System::Drawing::Point(2010, 28);
 			this->button2->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(93, 50);
@@ -380,7 +382,7 @@ namespace FinalProjectDSA {
 			this->panel2->Location = System::Drawing::Point(69, 334);
 			this->panel2->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->panel2->Name = L"panel2";
-			this->panel2->Size = System::Drawing::Size(1485, 114);
+			this->panel2->Size = System::Drawing::Size(2130, 114);
 			this->panel2->TabIndex = 7;
 			// 
 			// heapD
@@ -644,7 +646,7 @@ namespace FinalProjectDSA {
 			this->panel5->Location = System::Drawing::Point(69, 534);
 			this->panel5->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->panel5->Name = L"panel5";
-			this->panel5->Size = System::Drawing::Size(1485, 114);
+			this->panel5->Size = System::Drawing::Size(2130, 114);
 			this->panel5->TabIndex = 10;
 			// 
 			// label11
@@ -665,7 +667,7 @@ namespace FinalProjectDSA {
 			// 
 			this->button5->Font = (gcnew System::Drawing::Font(L"NSimSun", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button5->Location = System::Drawing::Point(1357, 38);
+			this->button5->Location = System::Drawing::Point(2010, 40);
 			this->button5->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(93, 50);
@@ -685,7 +687,7 @@ namespace FinalProjectDSA {
 			this->panel6->Location = System::Drawing::Point(69, 734);
 			this->panel6->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->panel6->Name = L"panel6";
-			this->panel6->Size = System::Drawing::Size(1485, 114);
+			this->panel6->Size = System::Drawing::Size(2130, 114);
 			this->panel6->TabIndex = 12;
 			// 
 			// label4
@@ -729,7 +731,7 @@ namespace FinalProjectDSA {
 			// 
 			this->button3->Font = (gcnew System::Drawing::Font(L"NSimSun", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button3->Location = System::Drawing::Point(1357, 38);
+			this->button3->Location = System::Drawing::Point(2010, 40);
 			this->button3->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(93, 50);
@@ -839,12 +841,24 @@ namespace FinalProjectDSA {
 			this->heapSortOutS->Text = L"(Choose an option)";
 			this->heapSortOutS->Visible = false;
 			// 
+			// label5
+			// 
+			this->label5->AutoSize = true;
+			this->label5->Font = (gcnew System::Drawing::Font(L"NSimSun", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label5->Location = System::Drawing::Point(79, 21);
+			this->label5->Name = L"label5";
+			this->label5->Size = System::Drawing::Size(893, 60);
+			this->label5->TabIndex = 14;
+			this->label5->Text = L"Top Ranked Fortnite Players ";
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(16, 31);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
 			this->ClientSize = System::Drawing::Size(2483, 951);
+			this->Controls->Add(this->label5);
 			this->Controls->Add(this->panel1);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->SolosLabelPanel);
