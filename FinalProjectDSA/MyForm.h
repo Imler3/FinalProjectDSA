@@ -1,4 +1,6 @@
-﻿#pragma once
+﻿//created by Hannah Imler 8/3/2024
+
+#pragma once
 #include "algorithmSource.cpp"
 #include "mergesort.cpp"
 #include <iostream>
@@ -184,6 +186,7 @@ namespace FinalProjectDSA {
 			// 
 			// button1
 			// 
+			this->button1->BackColor = System::Drawing::Color::Gold;
 			this->button1->Font = (gcnew System::Drawing::Font(L"NSimSun", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button1->Location = System::Drawing::Point(2010, 34);
@@ -192,28 +195,31 @@ namespace FinalProjectDSA {
 			this->button1->Size = System::Drawing::Size(93, 50);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"▼";
-			this->button1->UseVisualStyleBackColor = true;
+			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->BackColor = System::Drawing::Color::Transparent;
-			this->label1->Font = (gcnew System::Drawing::Font(L"NSimSun", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label1->BackColor = System::Drawing::Color::DodgerBlue;
+			this->label1->Font = (gcnew System::Drawing::Font(L"Gill Sans Ultra Bold", 15.9F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label1->Location = System::Drawing::Point(91, 145);
+			this->label1->ForeColor = System::Drawing::SystemColors::Control;
+			this->label1->Location = System::Drawing::Point(11, 20);
 			this->label1->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(158, 53);
+			this->label1->Size = System::Drawing::Size(205, 76);
 			this->label1->TabIndex = 1;
 			this->label1->Text = L"Solos";
+			this->label1->Click += gcnew System::EventHandler(this, &MyForm::label1_Click);
 			// 
 			// SolosLabelPanel
 			// 
-			this->SolosLabelPanel->BackColor = System::Drawing::SystemColors::ActiveBorder;
+			this->SolosLabelPanel->BackColor = System::Drawing::Color::DodgerBlue;
 			this->SolosLabelPanel->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->SolosLabelPanel->Controls->Add(this->quick);
 			this->SolosLabelPanel->Controls->Add(this->merge);
+			this->SolosLabelPanel->Controls->Add(this->label1);
 			this->SolosLabelPanel->Controls->Add(this->button1);
 			this->SolosLabelPanel->Location = System::Drawing::Point(69, 110);
 			this->SolosLabelPanel->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
@@ -223,25 +229,31 @@ namespace FinalProjectDSA {
 			// 
 			// quick
 			// 
+			this->quick->BackColor = System::Drawing::Color::Gold;
+			this->quick->Font = (gcnew System::Drawing::Font(L"NSimSun", 8.1F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->quick->Location = System::Drawing::Point(525, 29);
 			this->quick->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->quick->Name = L"quick";
 			this->quick->Size = System::Drawing::Size(200, 55);
 			this->quick->TabIndex = 5;
 			this->quick->Text = L"Heap Sort";
-			this->quick->UseVisualStyleBackColor = true;
+			this->quick->UseVisualStyleBackColor = false;
 			this->quick->Visible = false;
 			this->quick->Click += gcnew System::EventHandler(this, &MyForm::quick_Click);
 			// 
 			// merge
 			// 
+			this->merge->BackColor = System::Drawing::Color::Gold;
+			this->merge->Font = (gcnew System::Drawing::Font(L"NSimSun", 8.1F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->merge->Location = System::Drawing::Point(259, 29);
 			this->merge->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->merge->Name = L"merge";
 			this->merge->Size = System::Drawing::Size(200, 55);
 			this->merge->TabIndex = 4;
 			this->merge->Text = L"Merge Sort";
-			this->merge->UseVisualStyleBackColor = true;
+			this->merge->UseVisualStyleBackColor = false;
 			this->merge->Visible = false;
 			this->merge->Click += gcnew System::EventHandler(this, &MyForm::merge_Click);
 			// 
@@ -348,6 +360,7 @@ namespace FinalProjectDSA {
 			// 
 			// button2
 			// 
+			this->button2->BackColor = System::Drawing::Color::Gold;
 			this->button2->Font = (gcnew System::Drawing::Font(L"NSimSun", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button2->Location = System::Drawing::Point(2010, 28);
@@ -356,29 +369,31 @@ namespace FinalProjectDSA {
 			this->button2->Size = System::Drawing::Size(93, 50);
 			this->button2->TabIndex = 0;
 			this->button2->Text = L"▼";
-			this->button2->UseVisualStyleBackColor = true;
+			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->BackColor = System::Drawing::Color::Transparent;
-			this->label3->Font = (gcnew System::Drawing::Font(L"NSimSun", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label3->BackColor = System::Drawing::Color::DodgerBlue;
+			this->label3->Font = (gcnew System::Drawing::Font(L"Gill Sans Ultra Bold", 15.9F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label3->Location = System::Drawing::Point(91, 370);
+			this->label3->ForeColor = System::Drawing::SystemColors::Control;
+			this->label3->Location = System::Drawing::Point(11, 13);
 			this->label3->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(131, 53);
+			this->label3->Size = System::Drawing::Size(195, 76);
 			this->label3->TabIndex = 6;
 			this->label3->Text = L"Duos";
 			// 
 			// panel2
 			// 
-			this->panel2->BackColor = System::Drawing::SystemColors::ActiveBorder;
+			this->panel2->BackColor = System::Drawing::Color::DodgerBlue;
 			this->panel2->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->panel2->Controls->Add(this->heapD);
 			this->panel2->Controls->Add(this->button2);
 			this->panel2->Controls->Add(this->mergeD);
+			this->panel2->Controls->Add(this->label3);
 			this->panel2->Location = System::Drawing::Point(69, 334);
 			this->panel2->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->panel2->Name = L"panel2";
@@ -387,25 +402,31 @@ namespace FinalProjectDSA {
 			// 
 			// heapD
 			// 
+			this->heapD->BackColor = System::Drawing::Color::Gold;
+			this->heapD->Font = (gcnew System::Drawing::Font(L"NSimSun", 8.1F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->heapD->Location = System::Drawing::Point(525, 29);
 			this->heapD->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->heapD->Name = L"heapD";
 			this->heapD->Size = System::Drawing::Size(200, 55);
 			this->heapD->TabIndex = 10;
 			this->heapD->Text = L"Heap Sort";
-			this->heapD->UseVisualStyleBackColor = true;
+			this->heapD->UseVisualStyleBackColor = false;
 			this->heapD->Visible = false;
 			this->heapD->Click += gcnew System::EventHandler(this, &MyForm::heapD_Click);
 			// 
 			// mergeD
 			// 
+			this->mergeD->BackColor = System::Drawing::Color::Gold;
+			this->mergeD->Font = (gcnew System::Drawing::Font(L"NSimSun", 8.1F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->mergeD->Location = System::Drawing::Point(259, 29);
 			this->mergeD->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->mergeD->Name = L"mergeD";
 			this->mergeD->Size = System::Drawing::Size(200, 55);
 			this->mergeD->TabIndex = 9;
 			this->mergeD->Text = L"Merge Sort";
-			this->mergeD->UseVisualStyleBackColor = true;
+			this->mergeD->UseVisualStyleBackColor = false;
 			this->mergeD->Visible = false;
 			this->mergeD->Click += gcnew System::EventHandler(this, &MyForm::mergeD_Click);
 			// 
@@ -613,31 +634,37 @@ namespace FinalProjectDSA {
 			// 
 			// heapT
 			// 
+			this->heapT->BackColor = System::Drawing::Color::Gold;
+			this->heapT->Font = (gcnew System::Drawing::Font(L"NSimSun", 8.1F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->heapT->Location = System::Drawing::Point(525, 17);
 			this->heapT->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->heapT->Name = L"heapT";
 			this->heapT->Size = System::Drawing::Size(200, 55);
 			this->heapT->TabIndex = 10;
 			this->heapT->Text = L"Heap Sort";
-			this->heapT->UseVisualStyleBackColor = true;
+			this->heapT->UseVisualStyleBackColor = false;
 			this->heapT->Visible = false;
 			this->heapT->Click += gcnew System::EventHandler(this, &MyForm::heapT_Click);
 			// 
 			// mergeT
 			// 
+			this->mergeT->BackColor = System::Drawing::Color::Gold;
+			this->mergeT->Font = (gcnew System::Drawing::Font(L"NSimSun", 8.1F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->mergeT->Location = System::Drawing::Point(259, 17);
 			this->mergeT->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->mergeT->Name = L"mergeT";
 			this->mergeT->Size = System::Drawing::Size(200, 55);
 			this->mergeT->TabIndex = 9;
 			this->mergeT->Text = L"Merge Sort";
-			this->mergeT->UseVisualStyleBackColor = true;
+			this->mergeT->UseVisualStyleBackColor = false;
 			this->mergeT->Visible = false;
 			this->mergeT->Click += gcnew System::EventHandler(this, &MyForm::mergeT_Click);
 			// 
 			// panel5
 			// 
-			this->panel5->BackColor = System::Drawing::SystemColors::ActiveBorder;
+			this->panel5->BackColor = System::Drawing::Color::DodgerBlue;
 			this->panel5->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->panel5->Controls->Add(this->label11);
 			this->panel5->Controls->Add(this->heapT);
@@ -652,19 +679,21 @@ namespace FinalProjectDSA {
 			// label11
 			// 
 			this->label11->AutoSize = true;
-			this->label11->BackColor = System::Drawing::Color::WhiteSmoke;
-			this->label11->Font = (gcnew System::Drawing::Font(L"NSimSun", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label11->BackColor = System::Drawing::Color::Transparent;
+			this->label11->Font = (gcnew System::Drawing::Font(L"Gill Sans Ultra Bold", 15.9F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->label11->ForeColor = System::Drawing::SystemColors::Control;
 			this->label11->Location = System::Drawing::Point(19, 21);
 			this->label11->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(158, 53);
+			this->label11->Size = System::Drawing::Size(201, 76);
 			this->label11->TabIndex = 9;
 			this->label11->Text = L"Trios";
 			this->label11->Click += gcnew System::EventHandler(this, &MyForm::label11_Click);
 			// 
 			// button5
 			// 
+			this->button5->BackColor = System::Drawing::Color::Gold;
 			this->button5->Font = (gcnew System::Drawing::Font(L"NSimSun", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button5->Location = System::Drawing::Point(2010, 40);
@@ -673,12 +702,12 @@ namespace FinalProjectDSA {
 			this->button5->Size = System::Drawing::Size(93, 50);
 			this->button5->TabIndex = 0;
 			this->button5->Text = L"▼";
-			this->button5->UseVisualStyleBackColor = true;
+			this->button5->UseVisualStyleBackColor = false;
 			this->button5->Click += gcnew System::EventHandler(this, &MyForm::button5_Click);
 			// 
 			// panel6
 			// 
-			this->panel6->BackColor = System::Drawing::SystemColors::ActiveBorder;
+			this->panel6->BackColor = System::Drawing::Color::DodgerBlue;
 			this->panel6->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->panel6->Controls->Add(this->label4);
 			this->panel6->Controls->Add(this->heapS);
@@ -693,42 +722,50 @@ namespace FinalProjectDSA {
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->BackColor = System::Drawing::Color::WhiteSmoke;
-			this->label4->Font = (gcnew System::Drawing::Font(L"NSimSun", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label4->BackColor = System::Drawing::Color::Transparent;
+			this->label4->Font = (gcnew System::Drawing::Font(L"Gill Sans Ultra Bold", 15.9F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label4->Location = System::Drawing::Point(19, 33);
+			this->label4->ForeColor = System::Drawing::SystemColors::Control;
+			this->label4->Location = System::Drawing::Point(11, 14);
 			this->label4->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(185, 53);
+			this->label4->Size = System::Drawing::Size(271, 76);
 			this->label4->TabIndex = 9;
 			this->label4->Text = L"Squads";
 			// 
 			// heapS
 			// 
+			this->heapS->BackColor = System::Drawing::Color::Gold;
+			this->heapS->Font = (gcnew System::Drawing::Font(L"NSimSun", 8.1F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->heapS->Location = System::Drawing::Point(525, 29);
 			this->heapS->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->heapS->Name = L"heapS";
 			this->heapS->Size = System::Drawing::Size(200, 55);
 			this->heapS->TabIndex = 10;
 			this->heapS->Text = L"Heap Sort";
-			this->heapS->UseVisualStyleBackColor = true;
+			this->heapS->UseVisualStyleBackColor = false;
 			this->heapS->Visible = false;
 			this->heapS->Click += gcnew System::EventHandler(this, &MyForm::heapS_Click);
 			// 
 			// mergeS
 			// 
+			this->mergeS->BackColor = System::Drawing::Color::Gold;
+			this->mergeS->Font = (gcnew System::Drawing::Font(L"NSimSun", 8.1F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->mergeS->Location = System::Drawing::Point(272, 29);
 			this->mergeS->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->mergeS->Name = L"mergeS";
 			this->mergeS->Size = System::Drawing::Size(200, 55);
 			this->mergeS->TabIndex = 9;
 			this->mergeS->Text = L"Merge Sort";
-			this->mergeS->UseVisualStyleBackColor = true;
+			this->mergeS->UseVisualStyleBackColor = false;
 			this->mergeS->Visible = false;
 			this->mergeS->Click += gcnew System::EventHandler(this, &MyForm::mergeS_Click);
 			// 
 			// button3
 			// 
+			this->button3->BackColor = System::Drawing::Color::Gold;
 			this->button3->Font = (gcnew System::Drawing::Font(L"NSimSun", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button3->Location = System::Drawing::Point(2010, 40);
@@ -737,7 +774,7 @@ namespace FinalProjectDSA {
 			this->button3->Size = System::Drawing::Size(93, 50);
 			this->button3->TabIndex = 0;
 			this->button3->Text = L"▼";
-			this->button3->UseVisualStyleBackColor = true;
+			this->button3->UseVisualStyleBackColor = false;
 			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
 			// heapOutputS1
@@ -844,11 +881,12 @@ namespace FinalProjectDSA {
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Font = (gcnew System::Drawing::Font(L"NSimSun", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label5->Font = (gcnew System::Drawing::Font(L"Gill Sans Ultra Bold", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->label5->ForeColor = System::Drawing::SystemColors::ControlLightLight;
 			this->label5->Location = System::Drawing::Point(79, 21);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(893, 60);
+			this->label5->Size = System::Drawing::Size(1118, 85);
 			this->label5->TabIndex = 14;
 			this->label5->Text = L"Top Ranked Fortnite Players ";
 			// 
@@ -857,13 +895,13 @@ namespace FinalProjectDSA {
 			this->AutoScaleDimensions = System::Drawing::SizeF(16, 31);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
+			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(13)), static_cast<System::Int32>(static_cast<System::Byte>(51)),
+				static_cast<System::Int32>(static_cast<System::Byte>(80)));
 			this->ClientSize = System::Drawing::Size(2483, 951);
 			this->Controls->Add(this->label5);
 			this->Controls->Add(this->panel1);
-			this->Controls->Add(this->label1);
 			this->Controls->Add(this->SolosLabelPanel);
 			this->Controls->Add(this->panel3);
-			this->Controls->Add(this->label3);
 			this->Controls->Add(this->panel2);
 			this->Controls->Add(this->panel4);
 			this->Controls->Add(this->panel5);
@@ -874,9 +912,11 @@ namespace FinalProjectDSA {
 			this->Text = L"    ";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->SolosLabelPanel->ResumeLayout(false);
+			this->SolosLabelPanel->PerformLayout();
 			this->panel1->ResumeLayout(false);
 			this->panel1->PerformLayout();
 			this->panel2->ResumeLayout(false);
+			this->panel2->PerformLayout();
 			this->panel3->ResumeLayout(false);
 			this->panel3->PerformLayout();
 			this->panel4->ResumeLayout(false);
@@ -1289,5 +1329,7 @@ private: System::Void label11_Click(System::Object^ sender, System::EventArgs^ e
 		heapOutputS2->Text = gcnew String(out2.c_str());
 		heapOutputS3->Text = gcnew String(out3.c_str());
 	}
+private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }
