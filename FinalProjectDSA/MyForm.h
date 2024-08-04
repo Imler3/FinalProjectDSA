@@ -184,9 +184,10 @@ namespace FinalProjectDSA {
 			// 
 			this->button1->Font = (gcnew System::Drawing::Font(L"NSimSun", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(509, 16);
+			this->button1->Location = System::Drawing::Point(1357, 38);
+			this->button1->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(35, 21);
+			this->button1->Size = System::Drawing::Size(93, 50);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"▼";
 			this->button1->UseVisualStyleBackColor = true;
@@ -198,9 +199,10 @@ namespace FinalProjectDSA {
 			this->label1->BackColor = System::Drawing::Color::Transparent;
 			this->label1->Font = (gcnew System::Drawing::Font(L"NSimSun", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label1->Location = System::Drawing::Point(34, 61);
+			this->label1->Location = System::Drawing::Point(91, 145);
+			this->label1->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(65, 21);
+			this->label1->Size = System::Drawing::Size(158, 53);
 			this->label1->TabIndex = 1;
 			this->label1->Text = L"Solos";
 			// 
@@ -211,16 +213,18 @@ namespace FinalProjectDSA {
 			this->SolosLabelPanel->Controls->Add(this->quick);
 			this->SolosLabelPanel->Controls->Add(this->merge);
 			this->SolosLabelPanel->Controls->Add(this->button1);
-			this->SolosLabelPanel->Location = System::Drawing::Point(26, 46);
+			this->SolosLabelPanel->Location = System::Drawing::Point(69, 110);
+			this->SolosLabelPanel->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->SolosLabelPanel->Name = L"SolosLabelPanel";
-			this->SolosLabelPanel->Size = System::Drawing::Size(558, 49);
+			this->SolosLabelPanel->Size = System::Drawing::Size(1485, 114);
 			this->SolosLabelPanel->TabIndex = 2;
 			// 
 			// quick
 			// 
-			this->quick->Location = System::Drawing::Point(197, 12);
+			this->quick->Location = System::Drawing::Point(525, 29);
+			this->quick->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->quick->Name = L"quick";
-			this->quick->Size = System::Drawing::Size(75, 23);
+			this->quick->Size = System::Drawing::Size(200, 55);
 			this->quick->TabIndex = 5;
 			this->quick->Text = L"Heap Sort";
 			this->quick->UseVisualStyleBackColor = true;
@@ -229,9 +233,10 @@ namespace FinalProjectDSA {
 			// 
 			// merge
 			// 
-			this->merge->Location = System::Drawing::Point(97, 12);
+			this->merge->Location = System::Drawing::Point(259, 29);
+			this->merge->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->merge->Name = L"merge";
-			this->merge->Size = System::Drawing::Size(75, 23);
+			this->merge->Size = System::Drawing::Size(200, 55);
 			this->merge->TabIndex = 4;
 			this->merge->Text = L"Merge Sort";
 			this->merge->UseVisualStyleBackColor = true;
@@ -243,10 +248,11 @@ namespace FinalProjectDSA {
 			this->heapOutput3->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->heapOutput3->AutoSize = true;
 			this->heapOutput3->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutput3->Location = System::Drawing::Point(643, 0);
+			this->heapOutput3->Location = System::Drawing::Point(1715, 0);
+			this->heapOutput3->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutput3->Name = L"heapOutput3";
-			this->heapOutput3->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutput3->Size = System::Drawing::Size(91, 63);
+			this->heapOutput3->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutput3->Size = System::Drawing::Size(238, 151);
 			this->heapOutput3->TabIndex = 3;
 			this->heapOutput3->Text = L"............................";
 			this->heapOutput3->TextAlign = System::Drawing::ContentAlignment::TopRight;
@@ -263,9 +269,10 @@ namespace FinalProjectDSA {
 			this->panel1->Controls->Add(this->heapOutput2);
 			this->panel1->Controls->Add(this->heapSortOutput);
 			this->panel1->Controls->Add(this->label2);
-			this->panel1->Location = System::Drawing::Point(26, 90);
+			this->panel1->Location = System::Drawing::Point(69, 215);
+			this->panel1->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(800, 10);
+			this->panel1->Size = System::Drawing::Size(2130, 21);
 			this->panel1->TabIndex = 3;
 			this->panel1->Visible = false;
 			// 
@@ -274,10 +281,11 @@ namespace FinalProjectDSA {
 			this->heapOutput0->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->heapOutput0->AutoSize = true;
 			this->heapOutput0->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutput0->Location = System::Drawing::Point(271, 0);
+			this->heapOutput0->Location = System::Drawing::Point(723, 0);
+			this->heapOutput0->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutput0->Name = L"heapOutput0";
-			this->heapOutput0->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutput0->Size = System::Drawing::Size(61, 63);
+			this->heapOutput0->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutput0->Size = System::Drawing::Size(158, 151);
 			this->heapOutput0->TabIndex = 5;
 			this->heapOutput0->Text = L"..................";
 			this->heapOutput0->Visible = false;
@@ -287,10 +295,11 @@ namespace FinalProjectDSA {
 			this->heapOutput1->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->heapOutput1->AutoSize = true;
 			this->heapOutput1->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutput1->Location = System::Drawing::Point(351, 0);
+			this->heapOutput1->Location = System::Drawing::Point(936, 0);
+			this->heapOutput1->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutput1->Name = L"heapOutput1";
-			this->heapOutput1->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutput1->Size = System::Drawing::Size(97, 63);
+			this->heapOutput1->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutput1->Size = System::Drawing::Size(254, 151);
 			this->heapOutput1->TabIndex = 4;
 			this->heapOutput1->Text = L"..............................";
 			this->heapOutput1->Visible = false;
@@ -300,10 +309,11 @@ namespace FinalProjectDSA {
 			this->heapOutput2->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->heapOutput2->AutoSize = true;
 			this->heapOutput2->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutput2->Location = System::Drawing::Point(481, 0);
+			this->heapOutput2->Location = System::Drawing::Point(1283, 0);
+			this->heapOutput2->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutput2->Name = L"heapOutput2";
-			this->heapOutput2->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutput2->Size = System::Drawing::Size(97, 63);
+			this->heapOutput2->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutput2->Size = System::Drawing::Size(254, 151);
 			this->heapOutput2->TabIndex = 2;
 			this->heapOutput2->Text = L"..............................";
 			this->heapOutput2->Visible = false;
@@ -314,9 +324,10 @@ namespace FinalProjectDSA {
 			this->heapSortOutput->BackColor = System::Drawing::Color::Transparent;
 			this->heapSortOutput->Dock = System::Windows::Forms::DockStyle::Top;
 			this->heapSortOutput->Location = System::Drawing::Point(0, 0);
+			this->heapSortOutput->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapSortOutput->Name = L"heapSortOutput";
-			this->heapSortOutput->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapSortOutput->Size = System::Drawing::Size(96, 63);
+			this->heapSortOutput->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapSortOutput->Size = System::Drawing::Size(255, 151);
 			this->heapSortOutput->TabIndex = 1;
 			this->heapSortOutput->Text = L"(Choose an option)";
 			this->heapSortOutput->Visible = false;
@@ -326,19 +337,21 @@ namespace FinalProjectDSA {
 			this->label2->AutoSize = true;
 			this->label2->Font = (gcnew System::Drawing::Font(L"Agency FB", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label2->Location = System::Drawing::Point(3, 49);
-			this->label2->MaximumSize = System::Drawing::Size(230, 0);
+			this->label2->Location = System::Drawing::Point(8, 117);
+			this->label2->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
+			this->label2->MaximumSize = System::Drawing::Size(613, 0);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(0, 17);
+			this->label2->Size = System::Drawing::Size(0, 39);
 			this->label2->TabIndex = 0;
 			// 
 			// button2
 			// 
 			this->button2->Font = (gcnew System::Drawing::Font(L"NSimSun", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button2->Location = System::Drawing::Point(509, 16);
+			this->button2->Location = System::Drawing::Point(1357, 38);
+			this->button2->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(35, 21);
+			this->button2->Size = System::Drawing::Size(93, 50);
 			this->button2->TabIndex = 0;
 			this->button2->Text = L"▼";
 			this->button2->UseVisualStyleBackColor = true;
@@ -350,9 +363,10 @@ namespace FinalProjectDSA {
 			this->label3->BackColor = System::Drawing::Color::Transparent;
 			this->label3->Font = (gcnew System::Drawing::Font(L"NSimSun", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label3->Location = System::Drawing::Point(34, 155);
+			this->label3->Location = System::Drawing::Point(91, 370);
+			this->label3->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(54, 21);
+			this->label3->Size = System::Drawing::Size(131, 53);
 			this->label3->TabIndex = 6;
 			this->label3->Text = L"Duos";
 			// 
@@ -363,16 +377,18 @@ namespace FinalProjectDSA {
 			this->panel2->Controls->Add(this->heapD);
 			this->panel2->Controls->Add(this->button2);
 			this->panel2->Controls->Add(this->mergeD);
-			this->panel2->Location = System::Drawing::Point(26, 140);
+			this->panel2->Location = System::Drawing::Point(69, 334);
+			this->panel2->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->panel2->Name = L"panel2";
-			this->panel2->Size = System::Drawing::Size(558, 49);
+			this->panel2->Size = System::Drawing::Size(1485, 114);
 			this->panel2->TabIndex = 7;
 			// 
 			// heapD
 			// 
-			this->heapD->Location = System::Drawing::Point(197, 12);
+			this->heapD->Location = System::Drawing::Point(525, 29);
+			this->heapD->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->heapD->Name = L"heapD";
-			this->heapD->Size = System::Drawing::Size(75, 23);
+			this->heapD->Size = System::Drawing::Size(200, 55);
 			this->heapD->TabIndex = 10;
 			this->heapD->Text = L"Heap Sort";
 			this->heapD->UseVisualStyleBackColor = true;
@@ -381,9 +397,10 @@ namespace FinalProjectDSA {
 			// 
 			// mergeD
 			// 
-			this->mergeD->Location = System::Drawing::Point(97, 12);
+			this->mergeD->Location = System::Drawing::Point(259, 29);
+			this->mergeD->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->mergeD->Name = L"mergeD";
-			this->mergeD->Size = System::Drawing::Size(75, 23);
+			this->mergeD->Size = System::Drawing::Size(200, 55);
 			this->mergeD->TabIndex = 9;
 			this->mergeD->Text = L"Merge Sort";
 			this->mergeD->UseVisualStyleBackColor = true;
@@ -395,10 +412,11 @@ namespace FinalProjectDSA {
 			this->heapOutputD1->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->heapOutputD1->AutoSize = true;
 			this->heapOutputD1->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutputD1->Location = System::Drawing::Point(342, 0);
+			this->heapOutputD1->Location = System::Drawing::Point(912, 0);
+			this->heapOutputD1->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutputD1->Name = L"heapOutputD1";
-			this->heapOutputD1->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutputD1->Size = System::Drawing::Size(97, 63);
+			this->heapOutputD1->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutputD1->Size = System::Drawing::Size(254, 151);
 			this->heapOutputD1->TabIndex = 4;
 			this->heapOutputD1->Text = L"..............................";
 			this->heapOutputD1->Visible = false;
@@ -408,10 +426,11 @@ namespace FinalProjectDSA {
 			this->heapOutputD3->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->heapOutputD3->AutoSize = true;
 			this->heapOutputD3->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutputD3->Location = System::Drawing::Point(626, 0);
+			this->heapOutputD3->Location = System::Drawing::Point(1669, 0);
+			this->heapOutputD3->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutputD3->Name = L"heapOutputD3";
-			this->heapOutputD3->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutputD3->Size = System::Drawing::Size(91, 63);
+			this->heapOutputD3->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutputD3->Size = System::Drawing::Size(238, 151);
 			this->heapOutputD3->TabIndex = 3;
 			this->heapOutputD3->Text = L"............................";
 			this->heapOutputD3->TextAlign = System::Drawing::ContentAlignment::TopRight;
@@ -428,9 +447,10 @@ namespace FinalProjectDSA {
 			this->panel3->Controls->Add(this->heapOutputD2);
 			this->panel3->Controls->Add(this->heapSortOutD);
 			this->panel3->Controls->Add(this->label9);
-			this->panel3->Location = System::Drawing::Point(26, 184);
+			this->panel3->Location = System::Drawing::Point(69, 439);
+			this->panel3->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->panel3->Name = L"panel3";
-			this->panel3->Size = System::Drawing::Size(800, 10);
+			this->panel3->Size = System::Drawing::Size(2130, 21);
 			this->panel3->TabIndex = 8;
 			this->panel3->Visible = false;
 			// 
@@ -439,10 +459,11 @@ namespace FinalProjectDSA {
 			this->heapOutputD0->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->heapOutputD0->AutoSize = true;
 			this->heapOutputD0->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutputD0->Location = System::Drawing::Point(253, 0);
+			this->heapOutputD0->Location = System::Drawing::Point(675, 0);
+			this->heapOutputD0->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutputD0->Name = L"heapOutputD0";
-			this->heapOutputD0->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutputD0->Size = System::Drawing::Size(61, 63);
+			this->heapOutputD0->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutputD0->Size = System::Drawing::Size(158, 151);
 			this->heapOutputD0->TabIndex = 5;
 			this->heapOutputD0->Text = L"..................";
 			this->heapOutputD0->Visible = false;
@@ -452,10 +473,11 @@ namespace FinalProjectDSA {
 			this->heapOutputD2->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->heapOutputD2->AutoSize = true;
 			this->heapOutputD2->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutputD2->Location = System::Drawing::Point(472, 0);
+			this->heapOutputD2->Location = System::Drawing::Point(1259, 0);
+			this->heapOutputD2->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutputD2->Name = L"heapOutputD2";
-			this->heapOutputD2->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutputD2->Size = System::Drawing::Size(97, 63);
+			this->heapOutputD2->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutputD2->Size = System::Drawing::Size(254, 151);
 			this->heapOutputD2->TabIndex = 2;
 			this->heapOutputD2->Text = L"..............................";
 			this->heapOutputD2->Visible = false;
@@ -466,9 +488,10 @@ namespace FinalProjectDSA {
 			this->heapSortOutD->BackColor = System::Drawing::Color::Transparent;
 			this->heapSortOutD->Dock = System::Windows::Forms::DockStyle::Top;
 			this->heapSortOutD->Location = System::Drawing::Point(0, 0);
+			this->heapSortOutD->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapSortOutD->Name = L"heapSortOutD";
-			this->heapSortOutD->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapSortOutD->Size = System::Drawing::Size(96, 63);
+			this->heapSortOutD->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapSortOutD->Size = System::Drawing::Size(255, 151);
 			this->heapSortOutD->TabIndex = 1;
 			this->heapSortOutD->Text = L"(Choose an option)";
 			this->heapSortOutD->Visible = false;
@@ -478,10 +501,11 @@ namespace FinalProjectDSA {
 			this->label9->AutoSize = true;
 			this->label9->Font = (gcnew System::Drawing::Font(L"Agency FB", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label9->Location = System::Drawing::Point(3, 49);
-			this->label9->MaximumSize = System::Drawing::Size(230, 0);
+			this->label9->Location = System::Drawing::Point(8, 117);
+			this->label9->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
+			this->label9->MaximumSize = System::Drawing::Size(613, 0);
 			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(0, 17);
+			this->label9->Size = System::Drawing::Size(0, 39);
 			this->label9->TabIndex = 0;
 			// 
 			// panel4
@@ -495,9 +519,10 @@ namespace FinalProjectDSA {
 			this->panel4->Controls->Add(this->heapOutputT3);
 			this->panel4->Controls->Add(this->heapOutputT2);
 			this->panel4->Controls->Add(this->heapSortOutT);
-			this->panel4->Location = System::Drawing::Point(26, 268);
+			this->panel4->Location = System::Drawing::Point(69, 639);
+			this->panel4->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->panel4->Name = L"panel4";
-			this->panel4->Size = System::Drawing::Size(800, 10);
+			this->panel4->Size = System::Drawing::Size(2130, 21);
 			this->panel4->TabIndex = 11;
 			this->panel4->Visible = false;
 			// 
@@ -506,10 +531,11 @@ namespace FinalProjectDSA {
 			this->label10->AutoSize = true;
 			this->label10->Font = (gcnew System::Drawing::Font(L"Agency FB", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label10->Location = System::Drawing::Point(3, 49);
-			this->label10->MaximumSize = System::Drawing::Size(230, 0);
+			this->label10->Location = System::Drawing::Point(8, 117);
+			this->label10->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
+			this->label10->MaximumSize = System::Drawing::Size(613, 0);
 			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(0, 17);
+			this->label10->Size = System::Drawing::Size(0, 39);
 			this->label10->TabIndex = 0;
 			// 
 			// heapOutputT0
@@ -517,10 +543,11 @@ namespace FinalProjectDSA {
 			this->heapOutputT0->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->heapOutputT0->AutoSize = true;
 			this->heapOutputT0->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutputT0->Location = System::Drawing::Point(253, 0);
+			this->heapOutputT0->Location = System::Drawing::Point(675, 0);
+			this->heapOutputT0->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutputT0->Name = L"heapOutputT0";
-			this->heapOutputT0->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutputT0->Size = System::Drawing::Size(61, 63);
+			this->heapOutputT0->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutputT0->Size = System::Drawing::Size(158, 151);
 			this->heapOutputT0->TabIndex = 5;
 			this->heapOutputT0->Text = L"..................";
 			this->heapOutputT0->Visible = false;
@@ -530,10 +557,11 @@ namespace FinalProjectDSA {
 			this->heapOutputT1->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->heapOutputT1->AutoSize = true;
 			this->heapOutputT1->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutputT1->Location = System::Drawing::Point(342, 0);
+			this->heapOutputT1->Location = System::Drawing::Point(912, 0);
+			this->heapOutputT1->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutputT1->Name = L"heapOutputT1";
-			this->heapOutputT1->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutputT1->Size = System::Drawing::Size(97, 63);
+			this->heapOutputT1->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutputT1->Size = System::Drawing::Size(254, 151);
 			this->heapOutputT1->TabIndex = 4;
 			this->heapOutputT1->Text = L"..............................";
 			this->heapOutputT1->Visible = false;
@@ -543,10 +571,11 @@ namespace FinalProjectDSA {
 			this->heapOutputT3->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->heapOutputT3->AutoSize = true;
 			this->heapOutputT3->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutputT3->Location = System::Drawing::Point(626, 0);
+			this->heapOutputT3->Location = System::Drawing::Point(1669, 0);
+			this->heapOutputT3->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutputT3->Name = L"heapOutputT3";
-			this->heapOutputT3->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutputT3->Size = System::Drawing::Size(91, 63);
+			this->heapOutputT3->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutputT3->Size = System::Drawing::Size(238, 151);
 			this->heapOutputT3->TabIndex = 3;
 			this->heapOutputT3->Text = L"............................";
 			this->heapOutputT3->TextAlign = System::Drawing::ContentAlignment::TopRight;
@@ -557,10 +586,11 @@ namespace FinalProjectDSA {
 			this->heapOutputT2->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->heapOutputT2->AutoSize = true;
 			this->heapOutputT2->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutputT2->Location = System::Drawing::Point(472, 0);
+			this->heapOutputT2->Location = System::Drawing::Point(1259, 0);
+			this->heapOutputT2->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutputT2->Name = L"heapOutputT2";
-			this->heapOutputT2->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutputT2->Size = System::Drawing::Size(97, 63);
+			this->heapOutputT2->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutputT2->Size = System::Drawing::Size(254, 151);
 			this->heapOutputT2->TabIndex = 2;
 			this->heapOutputT2->Text = L"..............................";
 			this->heapOutputT2->Visible = false;
@@ -571,18 +601,20 @@ namespace FinalProjectDSA {
 			this->heapSortOutT->BackColor = System::Drawing::Color::Transparent;
 			this->heapSortOutT->Dock = System::Windows::Forms::DockStyle::Top;
 			this->heapSortOutT->Location = System::Drawing::Point(0, 0);
+			this->heapSortOutT->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapSortOutT->Name = L"heapSortOutT";
-			this->heapSortOutT->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapSortOutT->Size = System::Drawing::Size(96, 63);
+			this->heapSortOutT->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapSortOutT->Size = System::Drawing::Size(255, 151);
 			this->heapSortOutT->TabIndex = 1;
 			this->heapSortOutT->Text = L"(Choose an option)";
 			this->heapSortOutT->Visible = false;
 			// 
 			// heapT
 			// 
-			this->heapT->Location = System::Drawing::Point(197, 7);
+			this->heapT->Location = System::Drawing::Point(525, 17);
+			this->heapT->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->heapT->Name = L"heapT";
-			this->heapT->Size = System::Drawing::Size(75, 23);
+			this->heapT->Size = System::Drawing::Size(200, 55);
 			this->heapT->TabIndex = 10;
 			this->heapT->Text = L"Heap Sort";
 			this->heapT->UseVisualStyleBackColor = true;
@@ -591,9 +623,10 @@ namespace FinalProjectDSA {
 			// 
 			// mergeT
 			// 
-			this->mergeT->Location = System::Drawing::Point(97, 7);
+			this->mergeT->Location = System::Drawing::Point(259, 17);
+			this->mergeT->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->mergeT->Name = L"mergeT";
-			this->mergeT->Size = System::Drawing::Size(75, 23);
+			this->mergeT->Size = System::Drawing::Size(200, 55);
 			this->mergeT->TabIndex = 9;
 			this->mergeT->Text = L"Merge Sort";
 			this->mergeT->UseVisualStyleBackColor = true;
@@ -608,9 +641,10 @@ namespace FinalProjectDSA {
 			this->panel5->Controls->Add(this->heapT);
 			this->panel5->Controls->Add(this->button5);
 			this->panel5->Controls->Add(this->mergeT);
-			this->panel5->Location = System::Drawing::Point(26, 224);
+			this->panel5->Location = System::Drawing::Point(69, 534);
+			this->panel5->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->panel5->Name = L"panel5";
-			this->panel5->Size = System::Drawing::Size(558, 49);
+			this->panel5->Size = System::Drawing::Size(1485, 114);
 			this->panel5->TabIndex = 10;
 			// 
 			// label11
@@ -619,9 +653,10 @@ namespace FinalProjectDSA {
 			this->label11->BackColor = System::Drawing::Color::WhiteSmoke;
 			this->label11->Font = (gcnew System::Drawing::Font(L"NSimSun", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label11->Location = System::Drawing::Point(7, 9);
+			this->label11->Location = System::Drawing::Point(19, 21);
+			this->label11->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(65, 21);
+			this->label11->Size = System::Drawing::Size(158, 53);
 			this->label11->TabIndex = 9;
 			this->label11->Text = L"Trios";
 			this->label11->Click += gcnew System::EventHandler(this, &MyForm::label11_Click);
@@ -630,9 +665,10 @@ namespace FinalProjectDSA {
 			// 
 			this->button5->Font = (gcnew System::Drawing::Font(L"NSimSun", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button5->Location = System::Drawing::Point(509, 16);
+			this->button5->Location = System::Drawing::Point(1357, 38);
+			this->button5->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->button5->Name = L"button5";
-			this->button5->Size = System::Drawing::Size(35, 21);
+			this->button5->Size = System::Drawing::Size(93, 50);
 			this->button5->TabIndex = 0;
 			this->button5->Text = L"▼";
 			this->button5->UseVisualStyleBackColor = true;
@@ -646,9 +682,10 @@ namespace FinalProjectDSA {
 			this->panel6->Controls->Add(this->heapS);
 			this->panel6->Controls->Add(this->mergeS);
 			this->panel6->Controls->Add(this->button3);
-			this->panel6->Location = System::Drawing::Point(26, 308);
+			this->panel6->Location = System::Drawing::Point(69, 734);
+			this->panel6->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->panel6->Name = L"panel6";
-			this->panel6->Size = System::Drawing::Size(558, 49);
+			this->panel6->Size = System::Drawing::Size(1485, 114);
 			this->panel6->TabIndex = 12;
 			// 
 			// label4
@@ -657,17 +694,19 @@ namespace FinalProjectDSA {
 			this->label4->BackColor = System::Drawing::Color::WhiteSmoke;
 			this->label4->Font = (gcnew System::Drawing::Font(L"NSimSun", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label4->Location = System::Drawing::Point(7, 14);
+			this->label4->Location = System::Drawing::Point(19, 33);
+			this->label4->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(76, 21);
+			this->label4->Size = System::Drawing::Size(185, 53);
 			this->label4->TabIndex = 9;
 			this->label4->Text = L"Squads";
 			// 
 			// heapS
 			// 
-			this->heapS->Location = System::Drawing::Point(197, 12);
+			this->heapS->Location = System::Drawing::Point(525, 29);
+			this->heapS->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->heapS->Name = L"heapS";
-			this->heapS->Size = System::Drawing::Size(75, 23);
+			this->heapS->Size = System::Drawing::Size(200, 55);
 			this->heapS->TabIndex = 10;
 			this->heapS->Text = L"Heap Sort";
 			this->heapS->UseVisualStyleBackColor = true;
@@ -676,9 +715,10 @@ namespace FinalProjectDSA {
 			// 
 			// mergeS
 			// 
-			this->mergeS->Location = System::Drawing::Point(102, 12);
+			this->mergeS->Location = System::Drawing::Point(272, 29);
+			this->mergeS->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->mergeS->Name = L"mergeS";
-			this->mergeS->Size = System::Drawing::Size(75, 23);
+			this->mergeS->Size = System::Drawing::Size(200, 55);
 			this->mergeS->TabIndex = 9;
 			this->mergeS->Text = L"Merge Sort";
 			this->mergeS->UseVisualStyleBackColor = true;
@@ -689,9 +729,10 @@ namespace FinalProjectDSA {
 			// 
 			this->button3->Font = (gcnew System::Drawing::Font(L"NSimSun", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button3->Location = System::Drawing::Point(509, 16);
+			this->button3->Location = System::Drawing::Point(1357, 38);
+			this->button3->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(35, 21);
+			this->button3->Size = System::Drawing::Size(93, 50);
 			this->button3->TabIndex = 0;
 			this->button3->Text = L"▼";
 			this->button3->UseVisualStyleBackColor = true;
@@ -702,10 +743,11 @@ namespace FinalProjectDSA {
 			this->heapOutputS1->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->heapOutputS1->AutoSize = true;
 			this->heapOutputS1->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutputS1->Location = System::Drawing::Point(342, 0);
+			this->heapOutputS1->Location = System::Drawing::Point(912, 0);
+			this->heapOutputS1->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutputS1->Name = L"heapOutputS1";
-			this->heapOutputS1->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutputS1->Size = System::Drawing::Size(97, 63);
+			this->heapOutputS1->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutputS1->Size = System::Drawing::Size(254, 151);
 			this->heapOutputS1->TabIndex = 4;
 			this->heapOutputS1->Text = L"..............................";
 			this->heapOutputS1->Visible = false;
@@ -715,10 +757,11 @@ namespace FinalProjectDSA {
 			this->heapOutputS3->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->heapOutputS3->AutoSize = true;
 			this->heapOutputS3->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutputS3->Location = System::Drawing::Point(626, 0);
+			this->heapOutputS3->Location = System::Drawing::Point(1669, 0);
+			this->heapOutputS3->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutputS3->Name = L"heapOutputS3";
-			this->heapOutputS3->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutputS3->Size = System::Drawing::Size(91, 63);
+			this->heapOutputS3->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutputS3->Size = System::Drawing::Size(238, 151);
 			this->heapOutputS3->TabIndex = 3;
 			this->heapOutputS3->Text = L"............................";
 			this->heapOutputS3->TextAlign = System::Drawing::ContentAlignment::TopRight;
@@ -729,10 +772,11 @@ namespace FinalProjectDSA {
 			this->heapOutputS2->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->heapOutputS2->AutoSize = true;
 			this->heapOutputS2->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutputS2->Location = System::Drawing::Point(472, 0);
+			this->heapOutputS2->Location = System::Drawing::Point(1259, 0);
+			this->heapOutputS2->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutputS2->Name = L"heapOutputS2";
-			this->heapOutputS2->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutputS2->Size = System::Drawing::Size(97, 63);
+			this->heapOutputS2->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutputS2->Size = System::Drawing::Size(254, 151);
 			this->heapOutputS2->TabIndex = 2;
 			this->heapOutputS2->Text = L"..............................";
 			this->heapOutputS2->Visible = false;
@@ -748,9 +792,10 @@ namespace FinalProjectDSA {
 			this->panel7->Controls->Add(this->heapOutputS3);
 			this->panel7->Controls->Add(this->heapOutputS2);
 			this->panel7->Controls->Add(this->heapSortOutS);
-			this->panel7->Location = System::Drawing::Point(26, 352);
+			this->panel7->Location = System::Drawing::Point(69, 839);
+			this->panel7->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->panel7->Name = L"panel7";
-			this->panel7->Size = System::Drawing::Size(800, 10);
+			this->panel7->Size = System::Drawing::Size(2130, 21);
 			this->panel7->TabIndex = 13;
 			this->panel7->Visible = false;
 			// 
@@ -759,10 +804,11 @@ namespace FinalProjectDSA {
 			this->label13->AutoSize = true;
 			this->label13->Font = (gcnew System::Drawing::Font(L"Agency FB", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label13->Location = System::Drawing::Point(3, 49);
-			this->label13->MaximumSize = System::Drawing::Size(230, 0);
+			this->label13->Location = System::Drawing::Point(8, 117);
+			this->label13->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
+			this->label13->MaximumSize = System::Drawing::Size(613, 0);
 			this->label13->Name = L"label13";
-			this->label13->Size = System::Drawing::Size(0, 17);
+			this->label13->Size = System::Drawing::Size(0, 39);
 			this->label13->TabIndex = 0;
 			// 
 			// heapOutputS0
@@ -770,10 +816,11 @@ namespace FinalProjectDSA {
 			this->heapOutputS0->Anchor = System::Windows::Forms::AnchorStyles::Top;
 			this->heapOutputS0->AutoSize = true;
 			this->heapOutputS0->BackColor = System::Drawing::Color::Transparent;
-			this->heapOutputS0->Location = System::Drawing::Point(253, 0);
+			this->heapOutputS0->Location = System::Drawing::Point(675, 0);
+			this->heapOutputS0->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapOutputS0->Name = L"heapOutputS0";
-			this->heapOutputS0->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapOutputS0->Size = System::Drawing::Size(61, 63);
+			this->heapOutputS0->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapOutputS0->Size = System::Drawing::Size(158, 151);
 			this->heapOutputS0->TabIndex = 5;
 			this->heapOutputS0->Text = L"..................";
 			this->heapOutputS0->Visible = false;
@@ -784,19 +831,20 @@ namespace FinalProjectDSA {
 			this->heapSortOutS->BackColor = System::Drawing::Color::Transparent;
 			this->heapSortOutS->Dock = System::Windows::Forms::DockStyle::Top;
 			this->heapSortOutS->Location = System::Drawing::Point(0, 0);
+			this->heapSortOutS->Margin = System::Windows::Forms::Padding(8, 0, 8, 0);
 			this->heapSortOutS->Name = L"heapSortOutS";
-			this->heapSortOutS->Padding = System::Windows::Forms::Padding(0, 50, 0, 0);
-			this->heapSortOutS->Size = System::Drawing::Size(96, 63);
+			this->heapSortOutS->Padding = System::Windows::Forms::Padding(0, 119, 0, 0);
+			this->heapSortOutS->Size = System::Drawing::Size(255, 151);
 			this->heapSortOutS->TabIndex = 1;
 			this->heapSortOutS->Text = L"(Choose an option)";
 			this->heapSortOutS->Visible = false;
 			// 
 			// MyForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(16, 31);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(931, 399);
+			this->ClientSize = System::Drawing::Size(2483, 951);
 			this->Controls->Add(this->panel1);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->SolosLabelPanel);
@@ -807,6 +855,7 @@ namespace FinalProjectDSA {
 			this->Controls->Add(this->panel5);
 			this->Controls->Add(this->panel6);
 			this->Controls->Add(this->panel7);
+			this->Margin = System::Windows::Forms::Padding(8, 7, 8, 7);
 			this->Name = L"MyForm";
 			this->Text = L"    ";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
